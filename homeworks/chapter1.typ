@@ -8,6 +8,7 @@
 
 #show math.frac: it => $display(it)$
 #set text(top-edge: 0.7em) 
+#set text(font: "Times New Roman")
 
 // Problem 1 {{{1
 #problem[

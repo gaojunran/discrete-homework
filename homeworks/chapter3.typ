@@ -8,6 +8,7 @@
 
 #show math.frac: it => $display(it)$
 #set text(top-edge: 0.7em) 
+#set text(font: "Times New Roman")
 
 #problem[
   The graph of a probability function of a discrete random variable $X$ is given by the following values:

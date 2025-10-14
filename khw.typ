@@ -96,7 +96,7 @@
   set page(
     header-ascent: 50%,
     header: context {
-      set text(10pt)
+      set text(10pt, fill: black.lighten(50%))
       let pagenum = counter(page).get().first()
       if pagenum != 1 {
         if course != none {

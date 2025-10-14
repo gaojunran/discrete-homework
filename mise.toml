@@ -1,6 +1,8 @@
 [tools]
 typst = 'latest'
 bun = 'latest'
+uv = 'latest'
+"github:Slackadays/Clipboard" = "latest"
 
 [tasks.compile]
 description = 'Compile all Typst files in the homeworks directory to PDFs.'
@@ -14,3 +16,8 @@ for await (let file of $`ls *.typ`.lines()) {
 '''
 dir = "homeworks"
 
+[tasks.compute]
+description = 'Run copied Python script.'
+run = [
+  "cb paste | uv run -"
+]
