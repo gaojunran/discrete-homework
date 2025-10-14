@@ -3,7 +3,7 @@
 #show: khw.with(
   title: [Chapter 1 Homework Exercises],
   course: "Discrete Probability Theory",
-  author: "GAO Junran 2023215219",
+  author: "GAO Junran 2023215319",
 )
 
 #show math.frac: it => $display(it)$
