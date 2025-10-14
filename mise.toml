@@ -1,0 +1,16 @@
+[tools]
+typst = 'latest'
+bun = 'latest'
+
+[tasks.compile]
+description = 'Compile all Typst files in the homeworks directory to PDFs.'
+run = '''
+#!/usr/bin/env bun
+
+import { $ } from "bun";
+for await (let file of $`ls *.typ`.lines()) {
+  file.trim() && await $`typst compile ${file} ${file.replace('.typ', '.pdf')} --root ..`;
+}
+'''
+dir = "homeworks"
+

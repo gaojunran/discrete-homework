@@ -372,3 +372,10 @@ $ P(D | T) = P(T | D) dot P(D) / P(T) = (P(T | D) dot P(D)) / (P(T | D) dot P(D)
 Carry out the calculation, we get:
 
 $ P(D | T) = (0.95 dot 0.005) / (0.95 dot 0.005 + 0.01 dot 0.995) = 0.00475 / (0.00475 + 0.00995) = 0.00475 / 0.0147 = 19 / 59 approx 0.322 $
+
+
+#linebreak()
+
+#line()
+
+Created with Typst. See source code in https://github.com/gaojunran/discrete-homework.

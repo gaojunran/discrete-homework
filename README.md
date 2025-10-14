@@ -1,8 +1,11 @@
-# Kian's Typst Homework Template
+## discrete-homework
 
-![Screenshot of document](ss.png)
+My homework for Discrete Probability Theory. See in [homeworks](./homeworks/).
 
-A template & library for typesetting homework assignment submissions in Typst.
+### Template
 
-See the [`manual.pdf`](./manual.pdf) file for instructions and small examples.
-The [`examples`](./examples) directory contains complete example documents.
+From https://github.com/kdkasad/typst-homework-template.
+
+### Usage
+
+PDF should be compiled. Run `mise run compile` to generate my homework docs.
