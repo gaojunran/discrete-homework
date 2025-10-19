@@ -237,7 +237,7 @@ $ = mat(.03, .03, .88, .03, .2; .3133, .03, .03, .455, .2; .3133, .03, .03, .455
 
 d.) To compute the steady-state vector $sigma$ associated to $M_R$, we need to solve the equation $(M_R^T − I) sigma = 0$, where $I$ is the identity matrix.
 
-Using a computer algebra application (Python), we find that the steady-state vector $sigma$ is approximately:
+Using a computer algebra application (TypeScript), we find that the steady-state vector $sigma$ is approximately:
 
 ```ts
 function steadyState(M: Matrix, tol = 1e-10, maxIter = 1000): number[] {
